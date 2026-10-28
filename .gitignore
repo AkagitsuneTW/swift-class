@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+._*
+
+# Xcode 建置產物
+build/
+DerivedData/
+*.xcarchive
+*.ipa
+*.dSYM
+*.dSYM.zip
+
+# Xcode 個人設定與介面狀態
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+
+# Swift Package Manager 本機產物
+.build/
+.swiftpm/
+
+# Swift Playgrounds 產物
+timeline.xctimeline
+playground.xcworkspace
